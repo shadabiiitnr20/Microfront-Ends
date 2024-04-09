@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <h1 className="text-3xl font-bold underline p-2 m-2">
-        Hello from Container...!!!
+        Hello from Container...!!
       </h1>
       <hr />
       <MarketingApp />
