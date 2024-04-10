@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { MemoryRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import App from "./components/App";
 
@@ -9,9 +9,9 @@ const mount = (el) => {
   const root = ReactDOM.createRoot(el);
 
   root.render(
-    <MemoryRouter>
+    <BrowserRouter>
       <App />
-    </MemoryRouter>
+    </BrowserRouter>
   );
 };
 
