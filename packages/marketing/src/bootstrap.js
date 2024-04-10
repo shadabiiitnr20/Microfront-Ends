@@ -1,15 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { MemoryRouter } from "react-router-dom";
+
 import App from "./components/App";
 
 //Mount function to start up the app
 const mount = (el) => {
   const root = ReactDOM.createRoot(el);
+
   root.render(
-    <BrowserRouter>
+    <MemoryRouter>
       <App />
-    </BrowserRouter>
+    </MemoryRouter>
   );
 };
 
