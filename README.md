@@ -22,3 +22,7 @@
 2. User click link governed by Marketing (Memory History).
     - Communicate change up to container
     - Container's Browser History should update its current path
+
+
+#### Note - 
+There are some issue with routing
